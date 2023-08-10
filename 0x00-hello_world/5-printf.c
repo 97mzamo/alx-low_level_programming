@@ -5,6 +5,6 @@
  */
 int main(void)
 {
-	printtf("with proper grammar, but the outcome is a piece of art,\n";
-			return (0);
+printtf("with proper grammar, but the outcome is a piece of art,\n";
+return (0);
 }
