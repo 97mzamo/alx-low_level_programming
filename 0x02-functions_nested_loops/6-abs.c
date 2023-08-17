@@ -4,7 +4,7 @@
 /**
  * _abc - computes the absolute value of an integer
  * @c: The number to be computed
- * Return: always 0
+ * Return: absolute of the number or zero
  */
 
 int _abs(int c)
