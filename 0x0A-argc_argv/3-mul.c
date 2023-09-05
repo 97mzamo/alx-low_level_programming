@@ -3,16 +3,16 @@
 
 /**
  * main - multiplies two numbers
- * @argc: argument count
- * @argv: argument vector
+ * @argc: number of command line arg..
+ * @argv: the array that contains the command line arg..
  * Return: 0
  */
 
-int main(int argc, char * argv[])
+int main(int argc, char *argv[])
 {
 	if (argc != 3)
 	{
-		printf("error\n");
+		printf("Error\n");
 		return (1);
 	}
 	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
