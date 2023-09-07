@@ -10,13 +10,14 @@ void ch_free_grid(char **grid, size_t height)
 	if (grid != NULL && height != 0)
 	{
 		for (; height > 0; height--)
-			free(grid[height]);
 		free(grid[height]);
+			free(grid[height]);
 		free(grid);
 	}
 }
 /**
  * strtow - splits string into two
+ * 
  * @str: string with words to be splitted
  * Return: a pointer to the new allocated memory for the string
  */
